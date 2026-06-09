@@ -2,7 +2,7 @@
 This project containerizes and deploys a FastAPI-based bookstore application using Docker and Kubernetes. The application is deployed as a multi-container setup with PostgreSQL as the backend database and Adminer for database access.
 
 
-## Bookstore API – Kubernetes Deployment ##
+## Bookstore API - Kubernetes Deployment ##
 
 1. Overview:
 This project demonstrates containerization and deployment of a FastAPI-based bookstore application on a Kubernetes cluster. The application was converted into a multi-container setup using PostgreSQL as the database and Adminer for database access.
