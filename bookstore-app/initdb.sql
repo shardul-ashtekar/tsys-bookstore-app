@@ -7,7 +7,9 @@ CREATE TABLE IF NOT EXISTS bookstore.book (
     author text not null
 );
 
-INSERT INTO bookstore.book (name, author, year) VALUES
+INSERT INTO bookstore.book 
+    (name, author, year) 
+VALUES
     ('Terry Pratchett, Otec prasátek', 'Bill Kaye, Stephen Player', 2007),
     ('TERRY PRATCHETT DISCWORLD NOVEL COLLECTION.', 'TERRY. PRATCHETT', 2012),
     ('Terry Pratchett''s Discworld Coloring Book', 'Terry Pratchett', 2017),
