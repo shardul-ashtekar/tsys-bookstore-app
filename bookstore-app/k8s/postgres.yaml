@@ -28,7 +28,7 @@ spec:
       volumes:
       - name: initdb
         hostPath:
-          path: /tmp/initdb   # 👈 we will copy SQL here
+          path: /tmp/initdb
 ---
 apiVersion: v1
 kind: Service
